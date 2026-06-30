@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+api/node_modules/
+web/node_modules/
+
+# Build outputs
+dist/
+api/dist/
+web/dist/
+
+# Environment files
+.env
+api/.env
+web/.env
+
+# TypeScript cache
+*.tsbuildinfo
+node_modules/.tmp/
+
+# Logs
+*.log
+npm-debug.log*
